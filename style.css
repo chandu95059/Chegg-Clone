@@ -1,0 +1,113 @@
+.nav-sep{
+    border-right: 1px solid gray;
+    
+}
+
+.nav-link{
+    transition:300ms;
+    padding: 0 10px !important;
+    color: black;
+    font-weight: bold;
+    border-bottom: 5px solid white !important;
+}
+.nav-link:hover{
+    border-bottom: 5px solid rgb(235, 113, 0) !important;
+}
+
+.hero-lg{
+    background-image: url('/img/Hero-image.webp');
+    height: 500px;
+    background-size: cover;
+}
+
+
+.content{
+    color: white;
+    padding: 160px 0 0 100px;
+    width: 600px;
+}
+
+.img-header{
+    position: relative;
+}
+
+.tag{
+    position: absolute;
+    top: 0;
+    padding: 5px;
+    border-top-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    background-color:   rgb(235, 113, 0);
+}
+
+.side-hero-1{
+    background-image: url('./img/panel-careers.webp');
+    background-size: cover;
+    height: 560px;
+    border-radius: 12px;
+}
+
+.side-hero-content{
+    padding: 32px;
+    padding-top: 160px;   
+}
+
+.side-hero-2{
+    background-image: url('./img/panel-life.webp');
+    background-size: cover;
+    height: 560px;
+    border-radius: 12px;
+}
+
+.search{
+    padding: 12px;
+    width: 520px;
+    box-sizing: border-box;
+    border: 4px solid rgb(255, 208, 0);
+    border-radius: 6px;
+}
+
+.search:focus{
+    outline: none;
+    border: 4px solid rgb(255, 77, 0);
+}
+
+
+.search-btn{
+    margin-left: -100px;
+}
+
+.search-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* position: relative; */
+    /* width: 520px; */
+}
+
+.mob-card{
+    border: none;
+}
+/* mobile screen*/
+@media(max-width: 586px){
+    .hero-lg{
+        display: None;
+    }
+    .hero-mobile{
+        display: block;
+    }
+
+
+}
+
+/* large screen*/
+
+@media(min-width: 586px){
+    .hero-lg{
+        display: block;
+    }
+    .hero-mobile{
+        display: None;
+    }
+
+}
